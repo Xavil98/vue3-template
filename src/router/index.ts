@@ -4,19 +4,24 @@ const routes: RouteRecordRaw[] = [
 	{
 		path: '/',
 		name: 'root',
-		component: () => import(/* webpackChunkName: "home" */ '@/AppLayout.vue'),
+		component: () =>
+			import(/* webpackChunkName: "home" */ '@/AppLayout.vue'),
 		children: [
 			{
 				path: '',
 				name: 'Home',
 				component: () =>
-					import(/* webpackChunkName: "home" */ '@/views/home/HomeView.vue'),
+					import(
+						/* webpackChunkName: "home" */ '@/views/home/HomeView.vue'
+					),
 			},
 			{
 				path: '/about',
 				name: 'About',
 				component: () =>
-					import(/* webpackChunkName: "home" */ '@/views/about/AboutView.vue'),
+					import(
+						/* webpackChunkName: "home" */ '@/views/about/AboutView.vue'
+					),
 			},
 		],
 	},

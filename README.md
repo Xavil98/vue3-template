@@ -2,26 +2,26 @@
 
 Technologies stack and features:
 
-- Vite 4
-- Vue 3
-- Vuetify 3
-- TypeScript
-- ESLint
-- Prettier
-- Tailwind CSS
-- SASS
-- Vitest
-- Testing Library
-- Husky
-- Pinia
-- Vue Query
-- Vue Router
-- Auto imports: Components
-- Auto imports: Vitest, Pinia, Vue and Vue Router APIs
+-   Vite 4
+-   Vue 3
+-   Vuetify 3
+-   TypeScript
+-   ESLint
+-   Prettier
+-   Tailwind CSS
+-   SASS
+-   Vitest
+-   Testing Library
+-   Husky
+-   Pinia
+-   Vue Query
+-   Vue Router
+-   Auto imports: Components
+-   Auto imports: Vitest, Pinia, Vue and Vue Router APIs
 
 ## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+-   [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 ## Type Support For `.vue` Imports in TS
 
@@ -30,6 +30,6 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
 1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.

@@ -1,0 +1,8 @@
+{
+    "backsite": "https://customerbackendLOCAL/be/",
+    "theme": "vDefault",
+    "oauth2": {
+        "clientId": "the oauth2 customer client id",
+        "login_redirect": "the redirect for oauth2 customer LOCAL"
+    }
+}

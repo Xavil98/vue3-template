@@ -10,14 +10,12 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     BaseNavbar: typeof import('./src/components/BaseNavbar.vue')['default']
-    HelloWorld: typeof import('./src/components/TechStack.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TechStack: typeof import('./src/components/TechStack.vue')['default']
     VApp: typeof import('vuetify/components')['VApp']
     VAppBar: typeof import('vuetify/components')['VAppBar']
     VBtn: typeof import('vuetify/components')['VBtn']
-    VCard: typeof import('vuetify/components')['VCard']
     VImg: typeof import('vuetify/components')['VImg']
     VLayout: typeof import('vuetify/components')['VLayout']
     VMain: typeof import('vuetify/components')['VMain']
